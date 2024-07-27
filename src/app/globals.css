@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+ 
+ 
+ .layout-body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+ @media (max-width:600px){
+
+   .dashbord{
+   width: 180px;
+   left:4rem
+   } 
+   }
